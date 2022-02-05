@@ -1,0 +1,15 @@
+/OcelotApiGateway/bin/*
+/OcelotApiGateway/obj/*
+/OcelotApiGateway/.vs/*
+/Payment.WebApi/bin/*
+/Payment.WebApi/obj/*
+/Payment.WebApi/.vs/*
+/Product.WebApi/bin/*
+/Product.WebApi/obj/*
+/Product.WebApi/.vs/*
+/Auth.WebApi/bin/*
+/Auth.WebApi/obj/*
+/Auth.WebApi/.vs/*
+/.vs/*
+/bin/*
+/obj/*
