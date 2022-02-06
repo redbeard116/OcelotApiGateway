@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcelotApiGateway", "OcelotA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.WebApi", "Auth.WebApi\Auth.WebApi.csproj", "{7CF493FD-EA31-4910-A8BB-CFD06D129BC9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{36530C54-F277-4BCC-9743-ADC3527EE778}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{34FA3FF9-2463-4815-814E-A73B636885D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +40,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD4927AD-F4CD-4A2E-A9D7-9987974833E9} = {34FA3FF9-2463-4815-814E-A73B636885D6}
+		{78C6D4FC-29F3-433D-A309-EC9963CC884A} = {34FA3FF9-2463-4815-814E-A73B636885D6}
+		{C56FCD98-7392-48DF-8D49-B587ED5B7467} = {36530C54-F277-4BCC-9743-ADC3527EE778}
+		{7CF493FD-EA31-4910-A8BB-CFD06D129BC9} = {34FA3FF9-2463-4815-814E-A73B636885D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C143487D-2694-43EC-949D-431C26B4BD76}

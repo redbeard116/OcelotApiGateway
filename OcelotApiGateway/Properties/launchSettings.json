@@ -20,7 +20,7 @@
     "OcelotApiGateway": {
       "commandName": "Project",
       "dotnetRunMessages": "false",
-      "launchBrowser": true,
+      "launchBrowser": false,
       "launchUrl": "",
       "applicationUrl": "https://localhost:5021;http://localhost:5020",
       "environmentVariables": {

@@ -30,6 +30,24 @@
       "UpstreamPathTemplate": "/Product",
       "UpstreamHttpMethod": [
         "GET"
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Auth",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5041"
+        }
+      ],
+      "UpstreamPathTemplate": "/Auth",
+      "UpstreamHttpMethod": [
+        "POST"
       ]
     }
   ],
